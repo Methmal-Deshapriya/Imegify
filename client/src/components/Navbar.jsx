@@ -20,11 +20,11 @@ const Navbar = () => {
             <button
               onClick={() => navigate("/buy")}
               className="flex items-center gap-2 bg-blue-100
-          px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:Scale-105 transtion-all duration-700"
+          px-3 sm:px-6 py-1.5 sm:py-3 rounded-full hover:Scale-105 transtion-all duration-700"
             >
               <img className="w-5" src={assets.credit_star} alt="" />
               <p className="text-xs sm:text-sm font-medium text-gray-600">
-                Credits left :{credit}
+                Credits: {credit}
               </p>
             </button>
 
